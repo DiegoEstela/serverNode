@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/file", (req, res) => {
-    res.sendFile( "./public/index.html");
+  res.sendFile('public/index.html' , { root : __dirname});
   });
 
 
