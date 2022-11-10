@@ -3,15 +3,18 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 
-app.use(express.static(__dirname + "/public"));
-
 
 app.get("/", (req, res) => {
   res.send("Bienvenido a mi API");
 });
 
 app.get("/file", (req, res) => {
-    res.sendFile("/index.html");
+    res.sendFile(__dirname + "/index.html");
+  });
+
+
+app.get("/files", (req, res) => {
+    res.send("Bienvenido a mi files");
   });
 
 app.listen(port, () => {
