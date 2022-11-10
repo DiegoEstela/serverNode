@@ -1,0 +1,23 @@
+{
+  "name": "servernode",
+  "version": "1.0.0",
+  "description": "Prueba dieNode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoEstela/serverNode.git"
+  },
+  "author": "Diego Estela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoEstela/serverNode/issues"
+  },
+  "homepage": "https://github.com/DiegoEstela/serverNode#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
