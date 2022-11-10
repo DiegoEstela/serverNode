@@ -7,6 +7,9 @@ app.get("/", (req, res) => {
   res.send("Bienvenido a mi API");
 });
 
+app.get("/segundaPrueba", (req, res) => {
+    res.send("Bienvenido a mi segundaPrueba");
+  });
 
 app.listen(port, () => {
   console.log("server run on port " + port);
