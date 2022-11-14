@@ -28,6 +28,10 @@ app.get("/users", (req, res) => {
     res.send(users);
   });
 
+  app.get("/users/:id", (req, res) => {
+    res.send(id);
+  });
+
 app.listen(port, () => {
   console.log("server run on port " + port);
 });
